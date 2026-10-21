@@ -45,4 +45,4 @@ Explain: Which story did you cut from the MVP, and why?
 I cut the Blocklist filters (Story 2), location tagging (Story 8), auto-translation (Story 9) and live chat (Story 10) from the MVP. Implementing complex multi-table exclusion queries for blocklists creates heavy database loads that distract from the core CRUD requirements. Auto-translation requires external APIs, and live chat requires WebSockets for real-time updates. These introduce significant technical complexity that risks the 14-week timeline, so I am focusing strictly on the core entities and the search/pagination stretch feature.
 
 ## Repository
-https://github.com/chiv-int/The-Jomnouy-project
+https://github.com/chiv-int/The-Jeamouy-Project
