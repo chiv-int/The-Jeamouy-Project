@@ -1,0 +1,214 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dara"
+    },
+    {
+      "id": 2,
+      "name": "Sophea"
+    },
+    {
+      "id": 3,
+      "name": "Moderator"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "Study desk, barely used",
+      "content": "Solid wood, 120 cm wide. Pickup only.",
+      "category": "Sell",
+      "isClosed": false,
+      "createdAt": "2026-10-20T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Where can I get a library card?",
+      "content": "Is there a student rate, or do I need an ID?",
+      "category": "Question",
+      "isClosed": false,
+      "createdAt": "2026-10-20T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "Need help moving a fridge",
+      "content": "Saturday morning, two people needed. I can pay for lunch.",
+      "category": "Help",
+      "isClosed": false,
+      "createdAt": "2026-10-21T08:00:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Camping tent for rent",
+      "content": "4-person tent, rent by the weekend.",
+      "category": "Rent",
+      "isClosed": false,
+      "createdAt": "2026-10-21T10:00:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "Used textbooks bundle",
+      "content": "Intro to databases and statistics.",
+      "category": "Sell",
+      "isClosed": false,
+      "createdAt": "2026-10-22T08:00:00Z"
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Best quiet study spots?",
+      "content": "Looking for cafes or libraries nearby.",
+      "category": "Question",
+      "isClosed": false,
+      "createdAt": "2026-10-22T11:00:00Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "Need help fixing my bike",
+      "content": "Chain keeps slipping. Anyone good with bikes?",
+      "category": "Help",
+      "isClosed": true,
+      "createdAt": "2026-10-23T08:00:00Z"
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Projector for rent",
+      "content": "Great for movie nights or presentations.",
+      "category": "Rent",
+      "isClosed": false,
+      "createdAt": "2026-10-23T09:30:00Z"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Desk lamp for sale",
+      "content": "Adjustable arm, warm light. Works perfectly.",
+      "category": "Sell",
+      "isClosed": false,
+      "createdAt": "2026-10-24T08:00:00Z"
+    },
+    {
+      "id": 10,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "How do I report a lost item?",
+      "content": "I lost my notebook near the library. Who should I ask?",
+      "category": "Question",
+      "isClosed": false,
+      "createdAt": "2026-10-24T10:00:00Z"
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "authorName": "Sophea",
+      "title": "Need a ride to the market",
+      "content": "Sunday morning, can share the fuel cost.",
+      "category": "Help",
+      "isClosed": false,
+      "createdAt": "2026-10-25T08:00:00Z"
+    },
+    {
+      "id": 12,
+      "userId": 1,
+      "authorName": "Dara",
+      "title": "Folding chairs for rent",
+      "content": "Six chairs, good for small events.",
+      "category": "Rent",
+      "isClosed": false,
+      "createdAt": "2026-10-25T09:00:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 2,
+      "userId": 1,
+      "authorName": "Dara",
+      "content": "Try the front desk, they can set it up on the spot."
+    },
+    {
+      "id": 2,
+      "postId": 3,
+      "userId": 2,
+      "authorName": "Sophea",
+      "content": "I can help on Saturday. What time?"
+    },
+    {
+      "id": 3,
+      "postId": 3,
+      "userId": 1,
+      "authorName": "Dara",
+      "content": "Around 9 am, thank you!"
+    },
+    {
+      "id": 4,
+      "postId": 6,
+      "userId": 1,
+      "authorName": "Dara",
+      "content": "The campus library third floor is very quiet."
+    }
+  ],
+  "reports": [
+    {
+      "id": 1,
+      "reporterId": 2,
+      "reason": "Spam",
+      "postId": 7,
+      "commentId": null,
+      "status": "pending",
+      "createdAt": "2026-10-26T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "reporterId": 1,
+      "reason": "Harassment",
+      "postId": null,
+      "commentId": 2,
+      "status": "pending",
+      "createdAt": "2026-10-26T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "reporterId": 2,
+      "reason": "Scam",
+      "postId": 1,
+      "commentId": null,
+      "status": "pending",
+      "createdAt": "2026-10-27T08:00:00Z"
+    }
+  ],
+  "pins": [
+    {
+      "id": 1,
+      "userId": 1,
+      "postId": 3
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "postId": 5
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "postId": 2
+    }
+  ]
+}
